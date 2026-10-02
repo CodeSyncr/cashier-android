@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (unreleased)
+## 1.1.0 (2026-10-02)
 
 - Paywalls: the console's paywall documents drawn natively with Jetpack Compose — every block type and variant, multi-screen flows, screen themes, backgrounds (gradient, image, video), effects and entrances, plan cards, badges, countdowns, carousels, tabs, switches and sheets. `PaywallView` (Compose), `PaywallContent`, and `Cashier.presentPaywall(activity, requiredEntitlement, …)` with a `PaywallListener`.
 - Offerings carry the paywall (`Offering.paywall`, `paywallId`, `appName`) and the experiment the user is in (`Offerings.experiment`); the request sends `app_user_id`.

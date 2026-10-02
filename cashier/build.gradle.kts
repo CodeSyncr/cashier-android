@@ -6,7 +6,7 @@ plugins {
 
 // Published as com.github.CodeSyncr:cashier-android through JitPack (see
 // jitpack.yml); VERSION comes from the git tag JitPack builds.
-val sdkVersion: String = (findProperty("VERSION") as String?) ?: "1.0.0"
+val sdkVersion: String = (findProperty("VERSION") as String?) ?: "1.1.0"
 
 android {
     namespace = "com.nimbus.cashier"
