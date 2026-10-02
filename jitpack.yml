@@ -1,0 +1,5 @@
+# JitPack builds a tag: https://jitpack.io/#CodeSyncr/cashier-android
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :cashier:publishToMavenLocal -PVERSION=$VERSION --no-daemon
